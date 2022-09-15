@@ -1,0 +1,15 @@
+body ul.link li a {
+  color: black;
+  text-decoration: none;
+}
+body ul.link li a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+body{
+    background: 
+    url('https://www.w3schools.com/cssref/img_tree.gif'),
+    url('https://www.w3schools.com/cssref/paper.gif');
+    background-repeat: repeat-y,repeat;
+}
