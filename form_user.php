@@ -4,6 +4,7 @@
     <title>Profile</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -43,34 +44,21 @@
                         <label for="" class="form-label">Address</label>
                         <textarea name="" id="" cols="11" rows="3" class="form-control"></textarea>
                     </div>
-                    <div class="form-group mt-2 d-flex flex-column flex-wrap">
-                        <div class="d-flex flex-wrap flex-column">
-                            <label for="" class="form-label border border-1">This is image of a fly bird</label>
-                            <label for="" class="form-label border border-1">This is image of a fly bird</label>
-                            <label for="" class="form-label border border-1">This is image of a fly bird</label>
-                            <label for="" class="form-label border border-1">This is image of a fly bird</label>
-                            <label for="" class="form-label border border-1">This is image of a fly bird</label>
-                            <label for="" class="form-label border border-1">This is image of a fly bird</label>
-                            <label for="" class="form-label border border-1">This is image of a fly bird</label>
-                            <label for="" class="form-label border border-1">This is image of a fly bird</label>
-                            <label for="" class="form-label border border-1">This is image of a fly bird</label>
-                            <label for="" class="form-label border border-1">This is image of a fly bird</label>
-                            <label for="" class="form-label border border-1">This is image of a fly bird</label>
-                            <label for="" class="form-label border border-1">This is image of a fly bird</label>
-                        </div>
-                        <img width="200px" height="140px"
-                            src="https://www.adorama.com/alc/wp-content/uploads/2021/05/bird-wings-flying-feature.gif"
-                            alt="">
-                    </div>
                 </form>
+                <button id="class">click me</button>
             </div>
         </div>
     </section>
     
 </body>
 
-<footer>
-    <!-- javascript script -->
-</footer>
+<script>
+    jQuery(document).ready(function () {
 
+        jQuery('#class').on('click', function(){
+        alert('button clicked')
+
+    })
+    })
+</script>
 </html>
